@@ -5,6 +5,6 @@ Recently i've started to use linux on my work computer and decided to tinker aro
 
 ## Sources
 .bash_aliases (me)
-[.inputrc](https://github.com/webpro/dotfiles/blob/main/runcom/.inputrc) (webpro)
-[.functions](https://github.com/mathiasbynens/dotfiles/blob/main/.functions) (mathiasbynens)
-[.prompt](https://github.com/win0err/aphrodite-terminal-theme) (win0err)
+The [.inputrc](https://github.com/webpro/dotfiles/blob/main/runcom/.inputrc) (webpro)
+The [.functions](https://github.com/mathiasbynens/dotfiles/blob/main/.functions) (mathiasbynens)
+The [.prompt](https://github.com/win0err/aphrodite-terminal-theme) (win0err)
