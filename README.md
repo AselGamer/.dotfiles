@@ -1,6 +1,5 @@
 # My dotfiles
 
-## Background
 Recently i've started to use linux on my work computer and decided to tinker around with it a bit, so i copied some example files from this [repo](https://github.com/webpro/awesome-dotfiles) and followed this [guide](https://webpro.nl/articles/getting-started-with-dotfiles) on how to get started
 
 ## Sources
