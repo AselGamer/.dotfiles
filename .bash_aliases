@@ -15,6 +15,8 @@ alias ..="cd .."
 alias ...="cd ..; cd .."
 alias ....="cd ..; cd ..; cd .."
 
+alias weather="curl wttr.in/Bilbao?AnQm"
+
 # if fdfind is present alias it to fd
 if [ -f /usr/bin/fdfind ]; then 
 	alias fd="fdfind"

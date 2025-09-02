@@ -1,0 +1,12 @@
+set -o vi
+
+export PATH="$HOME/scripts:$PATH"
+ for DOTFILE in `find $HOME/.dotfiles/ -maxdepth 1 -type f -regex ".*/.dotfiles/\..*"`; do
+ . "$DOTFILE"
+ done
+
+. "$HOME/.local/bin/env"
+
+if [ -d /home/linuxbrew/ ]; then
+	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
