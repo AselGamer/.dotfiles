@@ -17,6 +17,9 @@ alias ....="cd ..; cd ..; cd .."
 
 alias weather="curl wttr.in/Bilbao?AnQm"
 
+alias discord="vesktop"
+alias bat="batcat"
+
 # if fdfind is present alias it to fd
 if [ -f /usr/bin/fdfind ]; then 
 	alias fd="fdfind"
