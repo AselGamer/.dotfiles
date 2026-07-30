@@ -89,6 +89,17 @@ function digga() {
 	dig +nocmd "$1" any +multiline +noall +answer;
 }
 
+# merge shorthand to make svn merge morelike git merge
+function svnmg() {
+	if [[ $1 == "" ]]; then
+		echo "No se ha especificado la branch";
+	elif [[ $1 == "trunk" ]]; then
+		svn merge ^/trunk;
+	else
+		svn merge ^/branches/"$1";
+	fi
+}
+
 # Show all the names (CNs and SANs) listed in the SSL certificate
 # for a given domain
 function getcertnames() {
